@@ -1,0 +1,23 @@
+ul{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+}
+li{
+  box-sizing: content-box;
+  width: initial;
+  background-color: #92b9c1;
+  padding: 2em;
+  border-radius: 5px;
+  width: 20% !important;
+  height: 2em !important;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
